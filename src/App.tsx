@@ -20,7 +20,6 @@ const App: FC = () => {
     setTodoList([...todoList, newTask]);
     setTask("");
     setDeadline(0);
-    console.log(todoList);
   };
 
   return (
